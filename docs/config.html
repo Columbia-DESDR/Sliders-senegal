@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="modulepreload" href="./internal/immutable/entry/start.92ab12e2.js">
+		<link rel="modulepreload" href="./internal/immutable/chunks/index.b89b4bd1.js">
+		<link rel="modulepreload" href="./internal/immutable/chunks/singletons.2aea6008.js">
+		<link rel="modulepreload" href="./internal/immutable/chunks/paths.e2913e27.js">
+		<link rel="modulepreload" href="./internal/immutable/entry/app.3704d92b.js">
+		<link rel="modulepreload" href="./internal/immutable/chunks/preload-helper.a4192956.js">
+	</head>
+	<body data-sveltekit-prefetch>
+		<div>
+			<script>
+				{
+					__sveltekit_19bivci = {
+						assets: "/desdr-ethiopia-demo",
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./internal/immutable/entry/start.92ab12e2.js"),
+						import("./internal/immutable/entry/app.3704d92b.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
